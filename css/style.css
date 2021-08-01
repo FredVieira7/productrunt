@@ -1,2 +1,39 @@
+@charset "UTF-8";
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+/* Classes auxiliares */
+.container {
+  width: 1000px;
+  max-width: 1200px;
+  padding: 0 2%;
+  margin: 0 auto; }
+
+/* Página contato */
+header {
+  background: linear-gradient(to right, #6A00A2, #9A40CA);
+  height: 80px;
+  box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.6); }
+  header .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px; }
+    header .cabecalho img {
+      width: 153px;
+      height: 24px; }
+    header .cabecalho ul {
+      list-style-type: none;
+      display: flex; }
+      header .cabecalho ul li {
+        margin: 5px 10px; }
+        header .cabecalho ul li a {
+          color: white;
+          font-size: 18px; }
+          header .cabecalho ul li a:hover {
+            color: #0DA5D0; }
 
 /*# sourceMappingURL=style.css.map */

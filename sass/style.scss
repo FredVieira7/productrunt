@@ -1,0 +1,52 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Classes auxiliares */
+.container {
+    width: 1000px;
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+
+/* Página contato */
+header {
+    background: linear-gradient(to right, #6A00A2, #9A40CA);
+    height: 80px;
+    box-shadow: 3px 3px 3px 4px rgba(0,0,0,0.6);
+    
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+
+        img {
+            width: 153px;
+            height: 24px;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin: 5px 10px;
+
+                a {
+                    color: white;
+                    font-size: 18px;
+                    
+                    &:hover {
+                        color: #0DA5D0;
+                    }
+                }
+            }
+        }
+        
+    }
+}
