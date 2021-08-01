@@ -77,13 +77,13 @@ section {
             p {
                 color: #202020;
                 margin-bottom: 5px;
-                font-size: 17px;
+                font-size: 16px;
             }
 
             iframe {
                 margin-top: 25px;
-                width: 450px;
-                height: 350px;
+                width: 400px;
+                height: 300px;
                 border: 1px solid #ccc;
             }
         }
@@ -142,6 +142,44 @@ section {
 
                 &:hover {
                     background-color: #9A40CA;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 35px;
+    margin-bottom: 30px;
+
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+
+        .opcoes {
+            display: flex;
+
+            ul {
+                list-style-type: none;
+                margin: 0px 25px;
+
+                h2 {
+                    color: #202020;
+                    margin-bottom: 15px;
+                }
+
+                li {
+                    padding: 5px 0px;
+
+                    a {
+                        color: #9A9A9A;
+                        font-size: 17px;
+
+                        &:hover {
+                            color: #6A00A2;
+                        }
+                    }
                 }
             }
         }

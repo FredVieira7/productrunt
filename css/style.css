@@ -56,11 +56,11 @@ section {
     section .secao .mapa p {
       color: #202020;
       margin-bottom: 5px;
-      font-size: 17px; }
+      font-size: 16px; }
     section .secao .mapa iframe {
       margin-top: 25px;
-      width: 450px;
-      height: 350px;
+      width: 400px;
+      height: 300px;
       border: 1px solid #ccc; }
     section .secao .form {
       width: 900px;
@@ -104,5 +104,28 @@ section {
         float: right; }
         section .secao .form input[type="submit"]:hover {
           background-color: #9A40CA; }
+
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 35px;
+  margin-bottom: 30px; }
+  footer .rodape {
+    display: flex;
+    justify-content: space-between; }
+    footer .rodape .opcoes {
+      display: flex; }
+      footer .rodape .opcoes ul {
+        list-style-type: none;
+        margin: 0px 25px; }
+        footer .rodape .opcoes ul h2 {
+          color: #202020;
+          margin-bottom: 15px; }
+        footer .rodape .opcoes ul li {
+          padding: 5px 0px; }
+          footer .rodape .opcoes ul li a {
+            color: #9A9A9A;
+            font-size: 17px; }
+            footer .rodape .opcoes ul li a:hover {
+              color: #6A00A2; }
 
 /*# sourceMappingURL=style.css.map */
