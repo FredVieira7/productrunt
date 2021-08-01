@@ -2,15 +2,18 @@
   header {
     background-color: #6A00A2; }
     header .container {
-      width: 575.98px; }
+      width: 575.98px;
+      max-width: 575.98px; }
     header .cabecalho {
-      justify-content: space-between; }
+      justify-content: space-evenly; }
       header .cabecalho .menu-desktop {
         display: none; }
+      header .cabecalho img {
+        margin-left: -50px; }
       header .cabecalho i {
         color: white;
         font-size: 35px;
-        margin: -5px 0px 0px 50px;
+        margin: -5px 135px 0px 0px;
         cursor: pointer;
         transition: all ease-in 0.5s; }
         header .cabecalho i:hover {
@@ -56,6 +59,42 @@
               font-size: 20px;
               margin-left: 35px; }
               header .cabecalho .menu-mobile ul li a:hover {
-                color: #6A00A2; } }
+                color: #6A00A2; }
+
+  section .container2 {
+    width: 575.98px;
+    max-width: 575.98px; }
+  section .secao {
+    display: flex;
+    flex-direction: column; }
+    section .secao .mapa h1 {
+      color: #202020;
+      width: 50%;
+      text-align: center;
+      margin-bottom: 25px; }
+    section .secao .mapa p {
+      text-align: center;
+      width: 50%; }
+    section .secao .mapa iframe {
+      display: none; }
+    section .secao .form {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 2%; }
+      section .secao .form form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column; }
+        section .secao .form form input {
+          width: 50%;
+          margin-left: 0px;
+          height: 35px; }
+        section .secao .form form textarea {
+          width: 50%;
+          margin-left: 0px; }
+      section .secao .form input[type="submit"] {
+        float: left; }
+        section .secao .form input[type="submit"]:hover {
+          background-color: #0DA5D0; } }
 
 /*# sourceMappingURL=mobile-contato.css.map */
