@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 /* Classes auxiliares */
 .container {
     width: 1000px;
@@ -19,6 +24,17 @@
     max-width: 1200px;
     padding: 0 2%;
     margin: 0 auto;
+}
+
+
+.displayMenu {
+    display: block;
+    height: 300px;
+}
+
+.displayNone {
+    display: none;
+    height: 0px;
 }
 
 .clear {
@@ -41,7 +57,7 @@ header {
             height: 24px;
         }
 
-        ul {
+        .menu-desktop ul {
             list-style-type: none;
             display: flex;
             li {
@@ -56,6 +72,14 @@ header {
                     }
                 }
             }
+        }
+
+        .menu-mobile {
+            display: none;
+        }
+
+        i {
+            display: none;
         }
         
     }
