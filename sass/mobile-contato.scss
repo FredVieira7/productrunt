@@ -1,4 +1,8 @@
 @media (max-width: 575.98px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
     header {
         background-color: #6A00A2;
 
@@ -24,6 +28,7 @@
                 margin: -5px 135px 0px 0px;
                 cursor: pointer;
                 transition: all ease-in 0.5s;
+                display: block;
 
                 &:hover {
                     color: #0DA5D0;
@@ -106,14 +111,14 @@
             .mapa {
                 h1 {
                     color: #202020;
-                    width: 50%;
+                    width: 60%;
                     text-align: center;
                     margin-bottom: 25px;
                 }
     
                 p {
                     text-align: center;
-                    width: 50%;
+                    width: 60%;
                 }
     
                 iframe {
@@ -132,13 +137,13 @@
                     flex-direction: column;
     
                     input {
-                        width: 50%;
+                        width: 60%;
                         margin-left: 0px;
                         height: 35px;
                     }
     
                     textarea {
-                        width: 50%;
+                        width: 60%;
                         margin-left: 0px;
                     }
                 }
@@ -149,6 +154,32 @@
                     &:hover {
                         background-color: #0DA5D0;
                     }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding-top: 35px;
+    margin-bottom: 0px;
+
+    .rodape {
+
+        justify-content: none;
+        flex-direction: column;
+
+        .opcoes {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                list-style-type: none;
+                margin: 0px 10px;
+
+                h2 {
+                    margin-top: 10px;
                 }
             }
         }
