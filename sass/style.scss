@@ -27,6 +27,16 @@ html, body {
 }
 
 
+.displayMenu {
+    display: block;
+    height: 300px;
+}
+
+.displayNone {
+    display: none;
+    height: 0px;
+}
+
 .clear {
     clear: both;
 }

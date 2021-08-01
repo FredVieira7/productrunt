@@ -23,6 +23,14 @@ html, body {
   padding: 0 2%;
   margin: 0 auto; }
 
+.displayMenu {
+  display: block;
+  height: 300px; }
+
+.displayNone {
+  display: none;
+  height: 0px; }
+
 .clear {
   clear: both; }
 

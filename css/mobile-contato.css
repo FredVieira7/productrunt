@@ -39,9 +39,7 @@
           font-size: 1.25em;
           border-radius: 1rem;
           box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
-          transition: all ease-in .5s;
-          display: none;
-          height: 0px; }
+          transition: ease-in-out .5s; }
           header .cabecalho .menu-mobile ul::before {
             content: '';
             position: absolute;
@@ -52,7 +50,8 @@
             border: .75rem solid transparent;
             border-top: none;
             border-bottom-color: #fff;
-            filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1)); }
+            filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+            transition: ease-in-out .5s; }
           header .cabecalho .menu-mobile ul li {
             margin: 20px 0px;
             padding: 15px 0px;
