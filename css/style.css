@@ -268,6 +268,10 @@ header {
     bottom: -20px;
     left: 50%; }
     header .arrow i {
-      color: #0DA5D0; }
+      color: #0DA5D0;
+      transition: all ease-in .5s;
+      cursor: pointer; }
+      header .arrow i:hover {
+        transform: rotate(360deg); }
 
 /*# sourceMappingURL=style.css.map */

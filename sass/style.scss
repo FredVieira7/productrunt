@@ -395,6 +395,12 @@ header {
 
         i {
             color: #0DA5D0;
+            transition: all ease-in .5s;
+            cursor: pointer;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
         }
     }
 }
