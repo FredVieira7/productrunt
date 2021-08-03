@@ -274,4 +274,34 @@ header {
       header .arrow i:hover {
         transform: rotate(360deg); }
 
+.secao-empresas {
+  background-color: #FCFCFC;
+  padding: 50px 0px; }
+  .secao-empresas .empresas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px; }
+  .secao-empresas h1 {
+    color: #202020;
+    text-align: center;
+    font-size: 30px; }
+  .secao-empresas .home-sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px; }
+    .secao-empresas .home-sobre .card {
+      box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.4);
+      width: 30%;
+      padding: 30px 2%;
+      border-radius: 10px; }
+      .secao-empresas .home-sobre .card img {
+        margin: 0px 10%; }
+      .secao-empresas .home-sobre .card h3 {
+        color: #202020;
+        text-align: center;
+        margin: 15px 0px; }
+      .secao-empresas .home-sobre .card p {
+        color: #202020;
+        text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

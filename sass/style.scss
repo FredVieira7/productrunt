@@ -404,3 +404,48 @@ header {
         }
     }
 }
+
+.secao-empresas {
+    background-color: #FCFCFC;
+    padding: 50px 0px;
+
+    .empresas {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 80px;
+    }
+
+    h1 {
+        color: #202020;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .home-sobre {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+        .card {
+            box-shadow: 2px 2px 3px 5px rgba(0,0,0,0.4);
+            width: 30%;
+            padding: 30px 2%;
+            border-radius: 10px;
+
+            img {
+                margin: 0px 10%;               
+            }
+
+            h3 {
+                color: #202020;
+                text-align: center;
+                margin: 15px 0px;
+            }
+
+            p {
+                color: #202020;
+                text-align: center;
+            }
+        }
+    }
+}
