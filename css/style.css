@@ -35,30 +35,30 @@ html, body {
   clear: both; }
 
 /* Página contato */
-header {
+.header-top {
   background: linear-gradient(to right, #6A00A2, #9A40CA);
   height: 80px;
   box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.6); }
-  header .cabecalho {
+  .header-top .cabecalho {
     display: flex;
     justify-content: space-between;
     padding-top: 25px; }
-    header .cabecalho img {
+    .header-top .cabecalho img {
       width: 153px;
       height: 24px; }
-    header .cabecalho .menu-desktop ul {
+    .header-top .cabecalho .menu-desktop ul {
       list-style-type: none;
       display: flex; }
-      header .cabecalho .menu-desktop ul li {
+      .header-top .cabecalho .menu-desktop ul li {
         margin: 5px 10px; }
-        header .cabecalho .menu-desktop ul li a {
+        .header-top .cabecalho .menu-desktop ul li a {
           color: white;
           font-size: 18px; }
-          header .cabecalho .menu-desktop ul li a:hover {
+          .header-top .cabecalho .menu-desktop ul li a:hover {
             color: #0DA5D0; }
-    header .cabecalho .menu-mobile {
+    .header-top .cabecalho .menu-mobile {
       display: none; }
-    header .cabecalho i {
+    .header-top .cabecalho i {
       display: none; }
 
 section {
@@ -201,5 +201,77 @@ section {
       color: #0DA5D0;
       background-color: white;
       border: 2px solid #FFCA00; }
+
+/* Página home */
+header {
+  background: linear-gradient(to right, #6A00A2, #9A40CA);
+  box-shadow: 3px 3px 3px 4px rgba(0, 0, 0, 0.6);
+  padding-bottom: 80px;
+  position: relative; }
+  header .cabecalho-home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px; }
+    header .cabecalho-home img {
+      width: 153px;
+      height: 24px; }
+    header .cabecalho-home .menu-desktop ul {
+      list-style-type: none;
+      display: flex; }
+      header .cabecalho-home .menu-desktop ul li {
+        margin: 5px 10px; }
+        header .cabecalho-home .menu-desktop ul li a {
+          color: white;
+          font-size: 18px; }
+          header .cabecalho-home .menu-desktop ul li a:hover {
+            color: #0DA5D0; }
+    header .cabecalho-home .menu-mobile {
+      display: none; }
+    header .cabecalho-home i {
+      display: none; }
+  header .home-banner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px; }
+    header .home-banner .banner-texto {
+      width: 100%; }
+      header .home-banner .banner-texto h1 {
+        color: white;
+        margin-bottom: 20px; }
+      header .home-banner .banner-texto p {
+        color: white; }
+      header .home-banner .banner-texto button {
+        background-color: #FFCA00;
+        color: black;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        height: 35px;
+        width: 180px;
+        margin-top: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all ease-in-out .5s;
+        cursor: pointer; }
+        header .home-banner .banner-texto button:hover {
+          border: 1px solid #FFCA00;
+          border-radius: 10px;
+          background-color: white; }
+    header .home-banner img {
+      width: 55%;
+      height: 55%; }
+  header .arrow {
+    background-color: white;
+    display: inline;
+    padding: 12px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 50%; }
+    header .arrow i {
+      color: #0DA5D0;
+      transition: all ease-in .5s;
+      cursor: pointer; }
+      header .arrow i:hover {
+        transform: rotate(360deg); }
 
 /*# sourceMappingURL=style.css.map */

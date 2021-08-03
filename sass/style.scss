@@ -42,7 +42,7 @@ html, body {
 }
 
 /* Página contato */
-header {
+.header-top {
     background: linear-gradient(to right, #6A00A2, #9A40CA);
     height: 80px;
     box-shadow: 3px 3px 3px 4px rgba(0,0,0,0.6);
@@ -291,6 +291,116 @@ section {
             color: #0DA5D0;
             background-color: white;
             border: 2px solid #FFCA00;
+        }
+    }
+}
+
+/* Página home */
+header {
+    background: linear-gradient(to right, #6A00A2, #9A40CA);
+    box-shadow: 3px 3px 3px 4px rgba(0,0,0,0.6);
+    padding-bottom: 80px;
+    position: relative;
+
+    .cabecalho-home {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 25px;
+    
+        img {
+            width: 153px;
+            height: 24px;
+        }
+    
+        .menu-desktop ul {
+            list-style-type: none;
+            display: flex;
+            li {
+                margin: 5px 10px;
+    
+                a {
+                    color: white;
+                    font-size: 18px;
+                    
+                    &:hover {
+                        color: #0DA5D0;
+                    }
+                }
+            }
+        }
+    
+        .menu-mobile {
+            display: none;
+        }
+    
+        i {
+            display: none;
+        }
+        
+        
+    }
+    
+    .home-banner {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 80px;
+
+        .banner-texto {
+            width: 100%;
+    
+            h1 {
+                color: white;
+                margin-bottom: 20px;
+            }
+    
+            p {
+                color: white;
+            }
+
+            button {
+                background-color: #FFCA00;
+                color: black;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                height: 35px;
+                width: 180px;
+                margin-top: 25px;
+                font-weight: bold;
+                text-transform: uppercase;
+                transition: all ease-in-out .5s;
+                cursor: pointer;
+
+                &:hover {
+                    border: 1px solid #FFCA00;
+                    border-radius: 10px;
+                    background-color: white;
+                }
+            }
+        }
+    
+        img {
+            width: 55%;
+            height: 55%;
+        }
+    }
+
+    .arrow {
+        background-color: white;
+        display: inline;
+        padding: 12px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+
+        i {
+            color: #0DA5D0;
+            transition: all ease-in .5s;
+            cursor: pointer;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
         }
     }
 }
