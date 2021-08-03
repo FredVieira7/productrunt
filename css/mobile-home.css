@@ -111,6 +111,23 @@
         width: 63%; }
       .secao-empresas .home-sobre .card p {
         margin-left: 5%;
-        width: 50%; } }
+        width: 50%; }
+
+  .time {
+    flex-direction: column;
+    justify-content: none; }
+    .time .time-texto h1 {
+      width: 30%;
+      text-align: center;
+      margin: 0 1%; }
+    .time .time-texto p {
+      width: 30%;
+      text-align: center;
+      margin: 20px 1%; }
+    .time img {
+      width: 40%;
+      height: 40%;
+      margin-left: 70px;
+      margin-top: -30px; } }
 
 /*# sourceMappingURL=mobile-home.css.map */

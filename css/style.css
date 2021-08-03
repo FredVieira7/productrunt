@@ -262,14 +262,14 @@ header {
   header .arrow {
     background-color: #ccc;
     display: inline;
-    padding: 12px;
+    padding: 18px;
     border-radius: 100%;
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     left: 50%; }
     header .arrow i {
       color: #0DA5D0;
-      transition: all ease-in .5s;
+      transition: all ease-in .3s;
       cursor: pointer; }
       header .arrow i:hover {
         transform: rotate(360deg); }
