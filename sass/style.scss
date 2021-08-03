@@ -294,3 +294,41 @@ section {
         }
     }
 }
+
+/* Página home */
+.cabecalho-home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+    img {
+        width: 153px;
+        height: 24px;
+    }
+
+    .menu-desktop ul {
+        list-style-type: none;
+        display: flex;
+        li {
+            margin: 5px 10px;
+
+            a {
+                color: white;
+                font-size: 18px;
+                
+                &:hover {
+                    color: #0DA5D0;
+                }
+            }
+        }
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    i {
+        display: none;
+    }
+    
+}

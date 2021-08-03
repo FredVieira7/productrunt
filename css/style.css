@@ -202,4 +202,27 @@ section {
       background-color: white;
       border: 2px solid #FFCA00; }
 
+/* Página home */
+.cabecalho-home {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px; }
+  .cabecalho-home img {
+    width: 153px;
+    height: 24px; }
+  .cabecalho-home .menu-desktop ul {
+    list-style-type: none;
+    display: flex; }
+    .cabecalho-home .menu-desktop ul li {
+      margin: 5px 10px; }
+      .cabecalho-home .menu-desktop ul li a {
+        color: white;
+        font-size: 18px; }
+        .cabecalho-home .menu-desktop ul li a:hover {
+          color: #0DA5D0; }
+  .cabecalho-home .menu-mobile {
+    display: none; }
+  .cabecalho-home i {
+    display: none; }
+
 /*# sourceMappingURL=style.css.map */
