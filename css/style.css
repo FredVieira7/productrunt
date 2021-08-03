@@ -144,4 +144,25 @@ footer {
             footer .rodape .opcoes ul li a:hover {
               color: #6A00A2; }
 
+/* Página sobre */
+.section-sobre {
+  background-color: #B9B9B9;
+  padding: 75px 0px;
+  margin: 0px 0px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4); }
+  .section-sobre .sobre {
+    display: flex;
+    justify-content: space-around; }
+    .section-sobre .sobre .sobre-texto {
+      width: 40%; }
+      .section-sobre .sobre .sobre-texto h1 {
+        color: #202020;
+        font-size: 35px;
+        margin-bottom: 30px; }
+      .section-sobre .sobre .sobre-texto p {
+        color: #202020; }
+    .section-sobre .sobre img {
+      box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.6);
+      border-radius: 10px; }
+
 /*# sourceMappingURL=style.css.map */

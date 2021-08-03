@@ -210,3 +210,36 @@ footer {
     }
 }
 
+/* Página sobre */
+.section-sobre {
+
+    background-color: #B9B9B9;
+    padding: 75px 0px;
+    margin: 0px 0px;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.4);
+
+    .sobre {
+        display: flex;
+        justify-content: space-around;
+        
+        .sobre-texto {
+            width: 40%;
+    
+            h1 {
+                color: #202020;
+                font-size: 35px;
+                margin-bottom: 30px;
+            }
+    
+            p {
+                color: #202020;
+            }
+        }
+    
+        img {
+            box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.6);
+            border-radius: 10px;
+        }
+        
+    }
+}
