@@ -95,4 +95,32 @@
             }
         }
     }
+
+
+
+    footer {
+        border-top: 1px solid #ccc;
+        padding-top: 35px;
+        margin-bottom: 0px;
+    
+        .rodape {
+    
+            justify-content: none;
+            flex-direction: column;
+    
+            .opcoes {
+                display: flex;
+                flex-direction: column;
+    
+                ul {
+                    list-style-type: none;
+                    margin: 0px 10px;
+    
+                    h2 {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
 }
