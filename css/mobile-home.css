@@ -189,6 +189,24 @@
       border-radius: 5px;
       height: 35px;
       width: 200px;
-      margin-left: 8%; } }
+      margin-left: 8%; }
+
+  footer {
+    border-top: 1px solid #ccc;
+    padding-top: 35px;
+    margin-bottom: 0px; }
+    footer .rodape {
+      justify-content: none;
+      flex-direction: column; }
+      footer .rodape .opcoes {
+        display: flex;
+        flex-direction: column; }
+        footer .rodape .opcoes ul {
+          list-style-type: none;
+          margin: 0px 10px; }
+          footer .rodape .opcoes ul h2 {
+            margin-top: 10px; }
+    footer img {
+      margin-top: 20px; } }
 
 /*# sourceMappingURL=mobile-home.css.map */
