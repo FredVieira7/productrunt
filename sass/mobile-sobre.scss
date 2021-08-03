@@ -96,6 +96,29 @@
         }
     }
 
+    .sobre {
+        flex-direction: column;
+        
+        h1 {
+            text-align: center;
+            width: 70%;
+            margin-left: 10%;
+        }
+
+        p {
+            margin-bottom: 40px;
+            width: 70%;
+            text-align: center;
+            margin-left: 10%;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            margin: 0 2%;
+        }
+    }
+
 
     footer {
         border-top: 1px solid #ccc;
