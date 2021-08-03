@@ -1,0 +1,95 @@
+@media (max-width: 575.98px) {
+  html, body {
+    overflow-x: hidden; }
+
+  header .cabecalho-home {
+    justify-content: space-evenly; }
+    header .cabecalho-home .menu-desktop {
+      display: none; }
+    header .cabecalho-home img {
+      margin-left: -50px; }
+    header .cabecalho-home i {
+      color: white;
+      font-size: 35px;
+      margin: -5px 135px 0px 0px;
+      cursor: pointer;
+      transition: all ease-in 0.5s;
+      display: block; }
+      header .cabecalho-home i:hover {
+        color: #0DA5D0;
+        transform: rotate(360deg); }
+    header .cabecalho-home .menu-mobile {
+      display: block; }
+      header .cabecalho-home .menu-mobile ul {
+        list-style-type: none;
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        margin-top: 20px;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        max-width: 30em;
+        background-color: #fff;
+        padding: 1.125em 1.5em;
+        font-size: 1.25em;
+        border-radius: 1rem;
+        box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
+        transition: ease-in-out .5s; }
+        header .cabecalho-home .menu-mobile ul::before {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          bottom: 100%;
+          right: 1.5em;
+          border: .75rem solid transparent;
+          border-top: none;
+          border-bottom-color: #fff;
+          filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+          transition: ease-in-out .5s; }
+        header .cabecalho-home .menu-mobile ul li {
+          margin: 20px 0px;
+          padding: 15px 0px;
+          border-bottom: 1px solid #ccc;
+          width: 125px; }
+          header .cabecalho-home .menu-mobile ul li a {
+            color: #0DA5D0;
+            font-size: 20px;
+            margin-left: 35px; }
+            header .cabecalho-home .menu-mobile ul li a:hover {
+              color: #6A00A2; }
+  header .home-banner {
+    flex-direction: column;
+    justify-content: none; }
+    header .home-banner .banner-texto h1 {
+      color: white;
+      margin-bottom: 30px;
+      width: 30%;
+      text-align: center;
+      margin-left: 3%; }
+    header .home-banner .banner-texto p {
+      text-align: center;
+      width: 30%;
+      margin-left: 3%; }
+    header .home-banner .banner-texto button {
+      margin-left: 5%; }
+    header .home-banner img {
+      width: 35%;
+      height: 35%;
+      margin-top: 50px; }
+  header .arrow {
+    background-color: #ccc;
+    display: inline;
+    padding: 20px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: -25px;
+    left: 45%; }
+    header .arrow i {
+      color: #0DA5D0;
+      transition: all ease-in .5s;
+      cursor: pointer; }
+      header .arrow i:hover {
+        transform: rotate(360deg); } }
+
+/*# sourceMappingURL=mobile-home.css.map */

@@ -260,7 +260,7 @@ header {
       width: 55%;
       height: 55%; }
   header .arrow {
-    background-color: white;
+    background-color: #ccc;
     display: inline;
     padding: 12px;
     border-radius: 100%;
