@@ -90,6 +90,27 @@
       transition: all ease-in .5s;
       cursor: pointer; }
       header .arrow i:hover {
-        transform: rotate(360deg); } }
+        transform: rotate(360deg); }
+
+  .secao-empresas .container2 {
+    max-width: 575.98px; }
+  .secao-empresas .empresas {
+    display: none; }
+  .secao-empresas h1 {
+    font-size: 27px;
+    width: 60%; }
+  .secao-empresas .home-sobre {
+    flex-direction: column;
+    justify-content: none; }
+    .secao-empresas .home-sobre .card {
+      box-shadow: none;
+      width: 100%;
+      padding: 30px 2%;
+      border-radius: none; }
+      .secao-empresas .home-sobre .card h3 {
+        width: 63%; }
+      .secao-empresas .home-sobre .card p {
+        margin-left: 5%;
+        width: 50%; } }
 
 /*# sourceMappingURL=mobile-home.css.map */

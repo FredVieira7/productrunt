@@ -88,7 +88,6 @@
             }
         }
 
-
         .home-banner {
             flex-direction: column;
             justify-content: none;
@@ -142,7 +141,42 @@
         }
     }
 
+    .secao-empresas {
 
+        .container2 {
+            max-width: 575.98px;
+        }
+    
+        .empresas {
+            display: none;
+        }
+    
+        h1 {
+            font-size: 27px;
+            width: 60%;
+        }
+    
+        .home-sobre {
+            flex-direction: column;
+            justify-content: none;
+    
+            .card {
+                box-shadow: none;
+                width: 100%;
+                padding: 30px 2%;
+                border-radius: none;
+    
+                h3 {
+                    width: 63%;
+                }
+    
+                p {
+                    margin-left: 5%;
+                    width: 50%;
+                }
+            }
+        }
+    }
 
 
 }
