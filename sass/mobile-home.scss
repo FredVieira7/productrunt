@@ -265,4 +265,35 @@
         display: none;
     }
 
+    .box {
+        box-shadow: none;
+        border-radius: none;
+        padding: 60px 0px;
+        border-top: none;
+    
+        h1 {
+            text-align: center;
+            width: 30%;
+            margin-left: 3%;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+    
+        p {
+            text-align: center;
+            width: 30%;
+            margin-left: 3%;
+        }
+    
+        button {
+            color: #6A00A2;
+            background-color: #FFCA00;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            height: 35px;
+            width: 200px;
+            margin-left: 8%;
+        }
+    }
+
 }
