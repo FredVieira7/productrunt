@@ -176,7 +176,7 @@ section {
 .box {
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.6);
   border-radius: 5px;
-  padding: 20px 0px;
+  padding: 50px 0px;
   border-top: 3px solid #FFCA00; }
   .box h1 {
     color: #202020;
@@ -273,5 +273,95 @@ header {
       cursor: pointer; }
       header .arrow i:hover {
         transform: rotate(360deg); }
+
+.secao-empresas {
+  background-color: #FCFCFC;
+  padding: 50px 0px; }
+  .secao-empresas .empresas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px; }
+  .secao-empresas h1 {
+    color: #202020;
+    text-align: center;
+    font-size: 30px; }
+  .secao-empresas .home-sobre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px; }
+    .secao-empresas .home-sobre .card {
+      box-shadow: 2px 2px 3px 5px rgba(0, 0, 0, 0.4);
+      width: 30%;
+      padding: 30px 2%;
+      border-radius: 10px; }
+      .secao-empresas .home-sobre .card img {
+        margin: 0px 10%; }
+      .secao-empresas .home-sobre .card h3 {
+        color: #202020;
+        text-align: center;
+        margin: 15px 0px; }
+      .secao-empresas .home-sobre .card p {
+        color: #202020;
+        text-align: center; }
+
+.time {
+  display: flex;
+  justify-content: space-around; }
+  .time .time-texto {
+    margin-top: 100px; }
+    .time .time-texto h1 {
+      color: #202020;
+      margin-bottom: 25px;
+      font-size: 30px; }
+    .time .time-texto p {
+      width: 80%;
+      margin-bottom: 20px;
+      color: #202020; }
+
+.secao-depoimentos {
+  background: linear-gradient(to bottom, #6A00A2, #9A40CA);
+  padding: 80px 0px;
+  margin: 0 auto; }
+  .secao-depoimentos h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 65px; }
+  .secao-depoimentos .slider {
+    display: inline-block; }
+    .secao-depoimentos .slider .slider-card p {
+      color: white;
+      width: 70%;
+      text-align: center;
+      margin: 0px 15%;
+      font-size: 19px; }
+    .secao-depoimentos .slider .slider-card h3 {
+      text-align: center;
+      margin: 20px 0px;
+      color: white; }
+    .secao-depoimentos .slider .slider-card img {
+      margin: 0px 46%;
+      width: 75px;
+      height: 75px; }
+    .secao-depoimentos .slider .slider-button {
+      display: flex;
+      justify-content: center; }
+      .secao-depoimentos .slider .slider-button span {
+        width: 13px;
+        height: 13px;
+        border-radius: 100%;
+        background-color: #9A9A9A;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer; }
+      .secao-depoimentos .slider .slider-button .ativa {
+        background-color: #FFCA00; }
+
+#slider2 {
+  display: none; }
+
+#slider3 {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
