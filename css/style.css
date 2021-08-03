@@ -165,4 +165,11 @@ footer {
       box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.6);
       border-radius: 10px; }
 
+.sobre-galeria {
+  display: flex;
+  justify-content: space-between; }
+  .sobre-galeria img {
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 5px; }
+
 /*# sourceMappingURL=style.css.map */
