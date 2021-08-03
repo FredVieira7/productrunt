@@ -205,4 +205,64 @@
         }
     }
 
+    .secao-depoimentos { 
+        background: linear-gradient(to bottom, #6A00A2, #9A40CA);
+        padding: 80px 0px;
+        margin: 0 auto;
+    
+        h1 {
+            text-align: center;
+            width: 30%;
+            margin-left: 3%;
+        }
+    
+        .slider {
+            display: inline-block;
+    
+            .slider-card {
+                
+                p {
+                    width: 30%;
+                    text-align: center;
+                    margin: 0px 3%;
+                    font-size: 20px;
+                }
+    
+                h3 {
+                    width: 30%;
+                    text-align: center;
+                    margin: 20px 3%;
+                }
+    
+                img {
+                    width: 10%;
+                    height: 10%;
+                    margin: 15px 13%;
+                }
+            }
+    
+            .slider-button {
+                display: none;
+                justify-content: none;
+    
+                span {
+                    display: none;
+                }
+    
+                .ativa {
+                    background-color: none;
+                }
+            }
+        }
+    }
+    
+    
+    #slider2 {
+        display: none;
+    }
+    
+    #slider3 {
+        display: none;
+    }
+
 }

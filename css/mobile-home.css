@@ -128,6 +128,43 @@
       width: 40%;
       height: 40%;
       margin-left: 70px;
-      margin-top: -30px; } }
+      margin-top: -30px; }
+
+  .secao-depoimentos {
+    background: linear-gradient(to bottom, #6A00A2, #9A40CA);
+    padding: 80px 0px;
+    margin: 0 auto; }
+    .secao-depoimentos h1 {
+      text-align: center;
+      width: 30%;
+      margin-left: 3%; }
+    .secao-depoimentos .slider {
+      display: inline-block; }
+      .secao-depoimentos .slider .slider-card p {
+        width: 30%;
+        text-align: center;
+        margin: 0px 3%;
+        font-size: 20px; }
+      .secao-depoimentos .slider .slider-card h3 {
+        width: 30%;
+        text-align: center;
+        margin: 20px 3%; }
+      .secao-depoimentos .slider .slider-card img {
+        width: 10%;
+        height: 10%;
+        margin: 15px 13%; }
+      .secao-depoimentos .slider .slider-button {
+        display: none;
+        justify-content: none; }
+        .secao-depoimentos .slider .slider-button span {
+          display: none; }
+        .secao-depoimentos .slider .slider-button .ativa {
+          background-color: none; }
+
+  #slider2 {
+    display: none; }
+
+  #slider3 {
+    display: none; } }
 
 /*# sourceMappingURL=mobile-home.css.map */
