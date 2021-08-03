@@ -260,7 +260,7 @@ section {
 .box {
     box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.6);
     border-radius: 5px;
-    padding: 20px 0px;
+    padding: 50px 0px;
     border-top: 3px solid #FFCA00;
 
     h1 {
@@ -469,4 +469,73 @@ header {
             color: #202020;
         }
     }
+}
+
+.secao-depoimentos { 
+    background: linear-gradient(to bottom, #6A00A2, #9A40CA);
+    padding: 80px 0px;
+    margin: 0 auto;
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 65px;
+    }
+
+    .slider {
+        display: inline-block;
+
+        .slider-card {
+            
+            p {
+                color: white;
+                width: 70%;
+                text-align: center;
+                margin: 0px 15%;
+                font-size: 19px;
+            }
+
+            h3 {
+                text-align: center;
+                margin: 20px 0px;
+                color: white;
+            }
+
+            img {
+                margin: 0px 46%;
+                width: 75px;
+                height: 75px;
+            }
+        }
+
+        .slider-button {
+            display: flex;
+            justify-content: center;
+
+            span {
+                width: 13px;
+                height: 13px;
+                border-radius: 100%;
+                background-color: #9A9A9A;
+                margin-top: 15px;
+                margin-left: 5px;
+                margin-right: 5px;
+                cursor: pointer;
+            }
+
+            .ativa {
+                background-color: #FFCA00;
+            }
+        }
+    }
+}
+
+
+#slider2 {
+    display: none;
+}
+
+#slider3 {
+    display: none;
 }
