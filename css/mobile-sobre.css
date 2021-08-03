@@ -64,41 +64,33 @@
               header .cabecalho .menu-mobile ul li a:hover {
                 color: #6A00A2; }
 
-  section .container2 {
-    width: 575.98px;
-    max-width: 575.98px; }
-  section .secao {
-    display: flex;
+  .sobre {
     flex-direction: column; }
-    section .secao .mapa h1 {
-      color: #202020;
-      width: 60%;
+    .sobre h1 {
       text-align: center;
-      margin-bottom: 25px; }
-    section .secao .mapa p {
+      width: 70%;
+      margin-left: 10%; }
+    .sobre p {
+      margin-bottom: 40px;
+      width: 70%;
       text-align: center;
-      width: 60%; }
-    section .secao .mapa iframe {
-      display: none; }
-    section .secao .form {
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 2%; }
-      section .secao .form form {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column; }
-        section .secao .form form input {
-          width: 60%;
-          margin-left: 0px;
-          height: 35px; }
-        section .secao .form form textarea {
-          width: 60%;
-          margin-left: 0px; }
-      section .secao .form input[type="submit"] {
-        float: left; }
-        section .secao .form input[type="submit"]:hover {
-          background-color: #0DA5D0; }
+      margin-left: 10%; }
+    .sobre img {
+      width: 300px;
+      height: 300px;
+      margin: 0 2%; }
+
+  .sobre-galeria {
+    flex-direction: column;
+    justify-content: none; }
+    .sobre-galeria img {
+      width: 300px;
+      height: 300px;
+      margin: 0 3%;
+      margin-bottom: 30px; }
+
+  .box {
+    display: none; }
 
   footer {
     border-top: 1px solid #ccc;
@@ -118,4 +110,4 @@
     footer img {
       margin-top: 20px; } }
 
-/*# sourceMappingURL=mobile-contato.css.map */
+/*# sourceMappingURL=mobile-sobre.css.map */
