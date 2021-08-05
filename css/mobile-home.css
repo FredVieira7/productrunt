@@ -3,15 +3,15 @@
     overflow-x: hidden; }
 
   header .cabecalho-home {
-    justify-content: space-evenly; }
+    justify-content: none; }
     header .cabecalho-home .menu-desktop {
       display: none; }
     header .cabecalho-home img {
-      margin-left: -50px; }
+      margin-left: 0px; }
     header .cabecalho-home i {
       color: white;
       font-size: 35px;
-      margin: -5px 135px 0px 0px;
+      margin: -5px 550px 0px 0px;
       cursor: pointer;
       transition: all ease-in 0.5s;
       display: block; }
@@ -26,7 +26,7 @@
         border-top: 1px solid #ccc;
         margin-top: 20px;
         position: absolute;
-        right: 50px;
+        right: 20px;
         top: 50px;
         max-width: 30em;
         background-color: #fff;
