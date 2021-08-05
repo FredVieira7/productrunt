@@ -8,7 +8,7 @@ botao.addEventListener("click", () => {
     }else {
         menuMobile.classList.remove('displayblock');
         menuMobile.classList.add('displayNone')
-    }
-    
-    
-})
+    }  
+});
+
+

@@ -3,7 +3,7 @@
     html, body {
         overflow-x: hidden;
     }
-    header {
+    .header-top {
         background-color: #6A00A2;
 
         .container {
@@ -12,14 +12,14 @@
         }
 
         .cabecalho {
-            justify-content: space-evenly;
+            justify-content: none;
             
             .menu-desktop {
                 display: none;
             }
 
             img {
-                margin-left: -50px;
+                margin-left: 0px;
             }
             
             i {
@@ -45,7 +45,7 @@
                     border-top: 1px solid #ccc;
                     margin-top: 20px;
                     position: absolute;
-                    right: 50px;
+                    right: 20px;
                     top: 50px;
                     max-width: 30em;
                     background-color: #fff;

@@ -2,36 +2,36 @@
   html, body {
     overflow-x: hidden; }
 
-  header {
+  .header-top {
     background-color: #6A00A2; }
-    header .container {
+    .header-top .container {
       width: 575.98px;
       max-width: 575.98px; }
-    header .cabecalho {
-      justify-content: space-evenly; }
-      header .cabecalho .menu-desktop {
+    .header-top .cabecalho {
+      justify-content: none; }
+      .header-top .cabecalho .menu-desktop {
         display: none; }
-      header .cabecalho img {
-        margin-left: -50px; }
-      header .cabecalho i {
+      .header-top .cabecalho img {
+        margin-left: 0px; }
+      .header-top .cabecalho i {
         color: white;
         font-size: 35px;
         margin: -5px 135px 0px 0px;
         cursor: pointer;
         transition: all ease-in 0.5s;
         display: block; }
-        header .cabecalho i:hover {
+        .header-top .cabecalho i:hover {
           color: #0DA5D0;
           transform: rotate(360deg); }
-      header .cabecalho .menu-mobile {
+      .header-top .cabecalho .menu-mobile {
         display: block; }
-        header .cabecalho .menu-mobile ul {
+        .header-top .cabecalho .menu-mobile ul {
           list-style-type: none;
           border-left: 1px solid #ccc;
           border-top: 1px solid #ccc;
           margin-top: 20px;
           position: absolute;
-          right: 50px;
+          right: 20px;
           top: 50px;
           max-width: 30em;
           background-color: #fff;
@@ -40,7 +40,7 @@
           border-radius: 1rem;
           box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
           transition: ease-in-out .5s; }
-          header .cabecalho .menu-mobile ul::before {
+          .header-top .cabecalho .menu-mobile ul::before {
             content: '';
             position: absolute;
             width: 0;
@@ -52,16 +52,16 @@
             border-bottom-color: #fff;
             filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
             transition: ease-in-out .5s; }
-          header .cabecalho .menu-mobile ul li {
+          .header-top .cabecalho .menu-mobile ul li {
             margin: 20px 0px;
             padding: 15px 0px;
             border-bottom: 1px solid #ccc;
             width: 125px; }
-            header .cabecalho .menu-mobile ul li a {
+            .header-top .cabecalho .menu-mobile ul li a {
               color: #0DA5D0;
               font-size: 20px;
               margin-left: 35px; }
-              header .cabecalho .menu-mobile ul li a:hover {
+              .header-top .cabecalho .menu-mobile ul li a:hover {
                 color: #6A00A2; }
 
   section .container2 {
