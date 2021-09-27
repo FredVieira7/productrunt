@@ -3,7 +3,7 @@
 <p>Mini projeto feito a partir de um layout criado no figma, com intuito de praticar as ferramentas, principalmente o pré processador SCSS.</p>
 
 <ul>
-    <h4>Ferramentas utilizdas: </h4>
+    <h4>Ferramentas utilizadas: </h4>
     <li>HTML5</li>
     <li>CSS</li>
     <li>SCSS</li>
